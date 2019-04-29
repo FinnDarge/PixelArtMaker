@@ -36,7 +36,7 @@ function makeGrid(height, width) {
    }
 }
 
-//random Background Color
+//random Background Color (main code from https://www.w3resource.com/javascript-exercises/javascript-math-exercise-40.php)
 function random_bg_color() {
     let x = Math.floor(Math.random() * 256);
     let y = Math.floor(Math.random() * 256);
